@@ -1,0 +1,50 @@
+
+
+.main_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Box {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border: 2px solid red;
+  border-radius: 2rem;
+}
+
+.Box.win {
+  border: 2px solid red;
+}
+.Box.lose {
+  border: 2px solid blue;
+}
+.Box.tie {
+  border: 2px solid black;
+}
+
+
+.Box_under {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-img {
+  width: 100px;
+}
+
